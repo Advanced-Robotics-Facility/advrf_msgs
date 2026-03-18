@@ -1,0 +1,11 @@
+std_msgs/Header header
+string board_type
+float32 v_batt
+float32 v_load
+float32 i_load
+float32 temperature
+float32 temp_batt
+float32 temp_heatsink
+uint32 status
+uint32 fault
+uint32 rtt
