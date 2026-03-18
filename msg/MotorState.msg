@@ -1,7 +1,7 @@
 std_msgs/Header header
 string[] name
 uint32[] statusword
-int32[]  modes_of_op
+int32[] modes_of_op
 float32[] motor_pos
 float32[] motor_vel
 float32[] link_pos
@@ -14,5 +14,7 @@ float32[] demanded_torque
 float32[] demanded_current
 float32[] control_effort
 float32[] motor_temp
-int32[]   drive_temp
-uint32[]  error_code
+int32[] drive_temp
+uint32[] error_code
+uint32[] fault
+uint32[] rtt
