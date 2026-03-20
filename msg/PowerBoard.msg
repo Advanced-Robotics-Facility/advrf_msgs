@@ -8,4 +8,6 @@ float32 temp_batt
 float32 temp_heatsink
 uint32 status
 uint32 fault
-uint32 rtt
+float32 rtt
+uint32 op_idx_ack
+float32 aux

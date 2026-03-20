@@ -1,7 +1,7 @@
 std_msgs/Header header
-geometry_msgs/Quaternion orientation
-geometry_msgs/Vector3 angular_velocity
 geometry_msgs/Vector3 linear_acceleration
+geometry_msgs/Vector3 angular_velocity
+geometry_msgs/Quaternion orientation
 uint32 imu_ts
 uint32 temperature
 uint32 digital_in
