@@ -1,0 +1,12 @@
+std_msgs/Header header
+float32 motor_current
+float32 motor_speed
+float32 pressure1
+float32 pressure2
+uint32 temperature
+uint32 mosfet_temperature
+uint32 motor_temperature
+uint32 fault
+uint32 rtt
+uint32 op_idx_ack
+float32 aux
