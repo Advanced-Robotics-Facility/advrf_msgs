@@ -16,5 +16,6 @@ float32[] control_effort
 float32[] motor_temp
 int32[] drive_temp
 uint32[] error_code
+string[] error_report
 uint32[] fault
 uint32[] rtt

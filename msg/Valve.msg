@@ -1,4 +1,5 @@
 std_msgs/Header header
+string name
 float32 encoder_position
 float32 force
 float32 pressure1

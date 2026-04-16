@@ -7,10 +7,12 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/MotorState.msg"
+  "msg/Motor.msg"
   "msg/Imu.msg"
   "msg/PowerBoard.msg"
   "msg/ForceTorque.msg"
+  "msg/Pump.msg"
+  "msg/Valve.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
