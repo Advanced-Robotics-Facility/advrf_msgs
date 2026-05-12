@@ -1,5 +1,4 @@
 std_msgs/Header header
-string board_type
 float32 v_batt
 float32 v_load
 float32 i_load
