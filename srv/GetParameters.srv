@@ -1,0 +1,4 @@
+string[] names
+---
+bool success
+rcl_interfaces/Parameter[] parameters
