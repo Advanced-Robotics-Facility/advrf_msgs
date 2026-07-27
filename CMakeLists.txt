@@ -17,6 +17,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Valve.msg"
   "msg/ParameterResult.msg"
 
+  "msg/AuxPDO.msg"
+  "msg/Gains.msg"
+  "msg/MotorPdoCmd.msg"
+  "msg/MotorsPdoCmd.msg"
+
+  "srv/ListGetParameters.srv"
   "srv/ListParameters.srv"
   "srv/GetParameters.srv"
   "srv/SetParameters.srv"
