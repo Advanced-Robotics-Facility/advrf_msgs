@@ -1,0 +1,34 @@
+# Command types
+uint8 TRJ_CMD=1
+uint8 CTRL_CMD=2
+uint8 FLASH_CMD=3
+uint8 ECAT_MASTER_CMD=4
+uint8 FOE_MASTER=5
+uint8 TRJ_QUEUE_CMD=6
+uint8 SLAVE_SDO_CMD=7
+uint8 SLAVE_SDO_INFO=8
+uint8 MOTOR_PDO_CMD=9
+uint8 SLAVE_REGISTRY_WRITE=10
+uint8 PDO_AUX_CMD=99
+
+std_msgs/Header header
+
+uint8 type
+advrf_interfaces/TrajectoryCmd trajectory_cmd
+advrf_interfaces/CtrlCmd ctrl_cmd
+advrf_interfaces/FlashCmd flash_cmd
+advrf_interfaces/EcatMasterCmd ecat_master_cmd
+advrf_interfaces/FoeMaster foe_master
+advrf_interfaces/TrjQueueCmd trj_queue_cmd
+advrf_interfaces/SlaveSdoCmd slave_sdo_cmd
+advrf_interfaces/SlaveSdoInfo slave_sdo_info
+advrf_interfaces/MotorsPdoCmd motors_pdo_cmd
+advrf_interfaces/SlaveRegistryWrite slave_registry_write
+advrf_interfaces/PdoAuxCmd pdos_aux_cmd
+---
+std_msgs/Header header
+
+uint8 type
+bool success
+string msg
+string pdo

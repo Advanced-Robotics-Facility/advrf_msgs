@@ -1,4 +1,0 @@
-string prefix
----
-bool success
-rcl_interfaces/Parameter[] parameters

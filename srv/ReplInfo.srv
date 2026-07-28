@@ -1,0 +1,8 @@
+---
+std_msgs/Header header
+
+string info
+advrf_interfaces/TrjStatus trj_status
+advrf_interfaces/TmStats tm_stats
+
+bool success
