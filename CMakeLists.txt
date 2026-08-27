@@ -9,7 +9,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  # Messages (State)
+  # Messages (State - RX)
   "msg/Motor.msg"
   "msg/Imu.msg"
   "msg/PowerBoard.msg"
@@ -18,7 +18,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Valve.msg"
   "msg/Gripper.msg"
 
-  # Messages (Commands)
+  # Messages (Command - TX)
+  "msg/MotorTxPdo.msg"
+  "msg/MotorTxPdoVector.msg"
+  "msg/GripperTxPdo.msg"
+  "msg/GripperTxPdoVector.msg"
+  "msg/ValveTxPdo.msg"
+  "msg/ValveTxPdoVector.msg"
+  "msg/PowerBoardTxPdo.msg"
+  "msg/ForceTorqueTxPdo.msg"
+  "msg/PumpTxPdo.msg"
+
+  # Messages (Various)
   "msg/AuxPdo.msg"
   "msg/CtrlCmd.msg"
   "msg/EcatMasterCmd.msg"
@@ -28,10 +39,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HomingPar.msg"
   "msg/KeyValStr.msg"
   "msg/MotorsPdoCmd.msg"
-  "msg/MotorTxPdo.msg"
-  "msg/MotorTxPdoVector.msg"
-  "msg/MotorXtTxPdo.msg"
-  "msg/MotorXtTxPdoVector.msg"
   "msg/PdoAuxCmd.msg"
   "msg/PeriodPar.msg"
   "msg/SlaveObj.msg"

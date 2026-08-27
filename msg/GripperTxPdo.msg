@@ -1,0 +1,9 @@
+int32 ecat_id
+float32 target_pos
+float32 target_vel
+float32 target_torque
+float32 gain_0
+float32 gain_1
+float32 gain_2
+float32 gain_3
+float32 gain_4
