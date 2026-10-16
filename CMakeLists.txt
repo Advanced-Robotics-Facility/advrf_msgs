@@ -21,12 +21,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Gains.msg"
   "msg/MotorPdoCmd.msg"
   "msg/MotorsPdoCmd.msg"
+  "msg/MotorTxPdo.msg"
+  "msg/MotorTxPdoVector.msg"
 
   "srv/ListGetParameters.srv"
   "srv/ListParameters.srv"
   "srv/GetParameters.srv"
   "srv/SetParameters.srv"
   "srv/Trigger.srv"
+  "srv/MotorControl.srv"
 
   DEPENDENCIES
     std_msgs
