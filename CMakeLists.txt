@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   # Messages (Various)
   "msg/AuxPdo.msg"
+  "msg/AuxCmd.msg"
   "msg/CtrlCmd.msg"
   "msg/EcatMasterCmd.msg"
   "msg/FlashCmd.msg"
@@ -38,8 +39,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Gains.msg"
   "msg/HomingPar.msg"
   "msg/KeyValStr.msg"
+  "msg/MotorPdoCmd.msg"
   "msg/MotorsPdoCmd.msg"
   "msg/PdoAuxCmd.msg"
+  "msg/ReplCmdContent.msg"
   "msg/PeriodPar.msg"
   "msg/SlaveObj.msg"
   "msg/SlaveRegistryWrite.msg"
