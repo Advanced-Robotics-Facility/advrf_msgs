@@ -1,0 +1,14 @@
+# Subset of controlled joints; other joints hold their measured position.
+string[] joint_names
+float64[] positions
+# Zero selects 1.0; otherwise values must be in (0, 1].
+float64 velocity_scaling
+float64 acceleration_scaling
+---
+# Zero on success; FollowJointTrajectory error codes are forwarded.
+int32 error_code
+string message
+---
+string[] joint_names
+float64[] actual_positions
+float64[] position_errors

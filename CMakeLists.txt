@@ -4,6 +4,7 @@ project(advrf_interfaces)
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
+find_package(action_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
@@ -55,11 +56,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrjQueueCmd.msg"
   "msg/TrjStatus.msg"
 
+  # Actions
+  "action/GoToJointPositions.action"
+
   # Services
   "srv/ReplCmd.srv"
   "srv/ReplInfo.srv"
 
-  DEPENDENCIES std_msgs geometry_msgs
+  DEPENDENCIES std_msgs geometry_msgs action_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
