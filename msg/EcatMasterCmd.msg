@@ -4,4 +4,4 @@ uint8 STOP_MASTER=2
 uint8 GET_SLAVES_DESCR=3
 
 uint8 type
-advrf_interfaces/KeyValStr[] args
+advrf_ros2_interfaces/KeyValStr[] args

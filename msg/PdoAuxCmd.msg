@@ -1,1 +1,1 @@
-advrf_interfaces/AuxCmd[] aux_cmds
+advrf_ros2_interfaces/AuxCmd[] aux_cmds

@@ -1,1 +1,1 @@
-advrf_interfaces/MotorTxPdo[] data
+advrf_ros2_interfaces/MotorTxPdo[] data

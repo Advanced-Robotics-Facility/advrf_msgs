@@ -13,14 +13,14 @@ uint8 PDO_AUX_CMD=99
 
 uint8 type
 std_msgs/Header header
-advrf_interfaces/TrajectoryCmd trajectory_cmd
-advrf_interfaces/CtrlCmd ctrl_cmd
-advrf_interfaces/FlashCmd flash_cmd
-advrf_interfaces/EcatMasterCmd ecat_master_cmd
-advrf_interfaces/FoeMaster foe_master
-advrf_interfaces/TrjQueueCmd trj_queue_cmd
-advrf_interfaces/SlaveSdoCmd slave_sdo_cmd
-advrf_interfaces/SlaveSdoInfo slave_sdo_info
-advrf_interfaces/MotorsPdoCmd motors_pdo_cmd
-advrf_interfaces/SlaveRegistryWrite slave_registry_write
-advrf_interfaces/PdoAuxCmd pdos_aux_cmd
+advrf_ros2_interfaces/TrajectoryCmd trajectory_cmd
+advrf_ros2_interfaces/CtrlCmd ctrl_cmd
+advrf_ros2_interfaces/FlashCmd flash_cmd
+advrf_ros2_interfaces/EcatMasterCmd ecat_master_cmd
+advrf_ros2_interfaces/FoeMaster foe_master
+advrf_ros2_interfaces/TrjQueueCmd trj_queue_cmd
+advrf_ros2_interfaces/SlaveSdoCmd slave_sdo_cmd
+advrf_ros2_interfaces/SlaveSdoInfo slave_sdo_info
+advrf_ros2_interfaces/MotorsPdoCmd motors_pdo_cmd
+advrf_ros2_interfaces/SlaveRegistryWrite slave_registry_write
+advrf_ros2_interfaces/PdoAuxCmd pdos_aux_cmd

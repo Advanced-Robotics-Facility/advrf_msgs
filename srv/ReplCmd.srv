@@ -1,4 +1,4 @@
-advrf_interfaces/ReplCmdContent request
+advrf_ros2_interfaces/ReplCmdContent request
 ---
 std_msgs/Header header
 

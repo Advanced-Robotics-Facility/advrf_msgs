@@ -1,1 +1,1 @@
-advrf_interfaces/GripperTxPdo[] data
+advrf_ros2_interfaces/GripperTxPdo[] data

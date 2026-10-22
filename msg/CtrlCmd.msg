@@ -29,4 +29,4 @@ uint8 type
 int32 board_id
 float32 value
 
-advrf_interfaces/Gains gains
+advrf_ros2_interfaces/Gains gains
